@@ -22,13 +22,14 @@ requires:
   Log::Any::For::Builtins: '0'
   Perinci::CmdLine: '0'
   Proc::ChildError: '0'
+  Rinci: v1.1.0
   String::ShellQuote: '0'
   perl: '5.010001'
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-CreateSelfSignedSSLCert
   homepage: https://metacpan.org/release/App-CreateSelfSignedSSLCert
-  repository: git://github.com/sharyanto/perl-App-CreateSelfSignedSSL.git
-version: '0.05'
+  repository: git://github.com/sharyanto/perl-App-CreateSelfSignedSSLCert.git
+version: '0.06'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
@@ -221,7 +222,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Rinci::Validate
       name: '@Author::SHARYANTO/Rinci::Validate'
-      version: '0.13'
+      version: '0.14'
     -
       class: Dist::Zilla::Plugin::SHARYANTO::OurPkgVersion
       name: '@Author::SHARYANTO/SHARYANTO::OurPkgVersion'

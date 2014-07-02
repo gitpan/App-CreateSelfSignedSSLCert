@@ -14,7 +14,7 @@ use String::ShellQuote;
 
 sub _sq { shell_quote($_[0]) }
 
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
 
 our %SPEC;
 
@@ -166,7 +166,7 @@ App::CreateSelfSignedSSLCert - Create self-signed SSL certificate
 
 =head1 VERSION
 
-This document describes version 0.05 of App::CreateSelfSignedSSLCert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-06-19.
+This document describes version 0.06 of App::CreateSelfSignedSSLCert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-07-02.
 
 =head1 SYNOPSIS
 
@@ -255,7 +255,7 @@ Please visit the project's homepage at L<https://metacpan.org/release/App-Create
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSL>.
+Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSLCert>.
 
 =head1 BUGS
 

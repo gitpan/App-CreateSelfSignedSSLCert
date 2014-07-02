@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!perl
 
 # TODO: when non-interactive, the default is used, e.g. c=AU, ST=Some-State,
 # etc.
@@ -10,7 +10,7 @@ BEGIN { no warnings; $main::Log_Level = "info" }
 
 use Perinci::CmdLine;
 
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
 
 Perinci::CmdLine->new(
     url => '/App/CreateSelfSignedSSLCert/create_self_signed_ssl_cert')->run;
@@ -30,7 +30,7 @@ create-self-signed-ssl-cert - Create self-signed SSL certificate
 
 =head1 VERSION
 
-This document describes version 0.05 of create-self-signed-ssl-cert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-06-19.
+This document describes version 0.06 of create-self-signed-ssl-cert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-07-02.
 
 =head1 SYNOPSIS
 
@@ -57,7 +57,7 @@ Please visit the project's homepage at L<https://metacpan.org/release/App-Create
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSL>.
+Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSLCert>.
 
 =head1 BUGS
 

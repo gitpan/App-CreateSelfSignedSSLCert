@@ -2,9 +2,9 @@ NAME
     App::CreateSelfSignedSSLCert - Create self-signed SSL certificate
 
 VERSION
-    This document describes version 0.05 of App::CreateSelfSignedSSLCert
+    This document describes version 0.06 of App::CreateSelfSignedSSLCert
     (from Perl distribution App-CreateSelfSignedSSLCert), released on
-    2014-06-19.
+    2014-07-02.
 
 SYNOPSIS
     This distribution provides command-line utility called
@@ -79,7 +79,7 @@ HOMEPAGE
 
 SOURCE
     Source repository is at
-    <https://github.com/sharyanto/perl-App-CreateSelfSignedSSL>.
+    <https://github.com/sharyanto/perl-App-CreateSelfSignedSSLCert>.
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
