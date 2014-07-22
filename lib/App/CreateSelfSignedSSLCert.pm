@@ -14,7 +14,7 @@ use String::ShellQuote;
 
 sub _sq { shell_quote($_[0]) }
 
-our $VERSION = '0.06'; # VERSION
+our $VERSION = '0.07'; # VERSION
 
 our %SPEC;
 
@@ -166,7 +166,7 @@ App::CreateSelfSignedSSLCert - Create self-signed SSL certificate
 
 =head1 VERSION
 
-This document describes version 0.06 of App::CreateSelfSignedSSLCert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-07-02.
+This document describes version 0.07 of App::CreateSelfSignedSSLCert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-07-22.
 
 =head1 SYNOPSIS
 
@@ -219,6 +219,8 @@ First element (status) is an integer containing HTTP status code
 element (meta) is called result metadata and is optional, a hash
 that contains extra information.
 
+ (any)
+
 
 =head2 create_ssl_csr(%args) -> [status, msg, result, meta]
 
@@ -249,13 +251,15 @@ First element (status) is an integer containing HTTP status code
 element (meta) is called result metadata and is optional, a hash
 that contains extra information.
 
+ (any)
+
 =head1 HOMEPAGE
 
 Please visit the project's homepage at L<https://metacpan.org/release/App-CreateSelfSignedSSLCert>.
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSLCert>.
+Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSL>.
 
 =head1 BUGS
 

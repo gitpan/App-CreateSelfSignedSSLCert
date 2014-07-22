@@ -2,9 +2,9 @@ NAME
     App::CreateSelfSignedSSLCert - Create self-signed SSL certificate
 
 VERSION
-    This document describes version 0.06 of App::CreateSelfSignedSSLCert
+    This document describes version 0.07 of App::CreateSelfSignedSSLCert
     (from Perl distribution App-CreateSelfSignedSSLCert), released on
-    2014-07-02.
+    2014-07-22.
 
 SYNOPSIS
     This distribution provides command-line utility called
@@ -49,6 +49,8 @@ FUNCTIONS
     is called result metadata and is optional, a hash that contains extra
     information.
 
+     (any)
+
   create_ssl_csr(%args) -> [status, msg, result, meta]
     Arguments ('*' denotes required arguments):
 
@@ -73,13 +75,15 @@ FUNCTIONS
     is called result metadata and is optional, a hash that contains extra
     information.
 
+     (any)
+
 HOMEPAGE
     Please visit the project's homepage at
     <https://metacpan.org/release/App-CreateSelfSignedSSLCert>.
 
 SOURCE
     Source repository is at
-    <https://github.com/sharyanto/perl-App-CreateSelfSignedSSLCert>.
+    <https://github.com/sharyanto/perl-App-CreateSelfSignedSSL>.
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website

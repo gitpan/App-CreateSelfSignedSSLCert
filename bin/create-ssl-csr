@@ -5,11 +5,11 @@ use strict;
 use warnings;
 BEGIN { no warnings; $main::Log_Level = "info" }
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Any;
 
-our $VERSION = '0.06'; # VERSION
+our $VERSION = '0.07'; # VERSION
 
-Perinci::CmdLine->new(
+Perinci::CmdLine::Any->new(
     url => '/App/CreateSelfSignedSSLCert/create_ssl_csr')->run;
 
 #ABSTRACT: Create SSL certificate signing request (CSR)
@@ -27,7 +27,7 @@ create-ssl-csr - Create SSL certificate signing request (CSR)
 
 =head1 VERSION
 
-This document describes version 0.06 of create-ssl-csr (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-07-02.
+This document describes version 0.07 of create-ssl-csr (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-07-22.
 
 =head1 SYNOPSIS
 
@@ -50,7 +50,7 @@ Please visit the project's homepage at L<https://metacpan.org/release/App-Create
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSLCert>.
+Source repository is at L<https://github.com/sharyanto/perl-App-CreateSelfSignedSSL>.
 
 =head1 BUGS
 
