@@ -2,9 +2,9 @@ NAME
     App::CreateSelfSignedSSLCert - Create self-signed SSL certificate
 
 VERSION
-    This document describes version 0.07 of App::CreateSelfSignedSSLCert
+    This document describes version 0.08 of App::CreateSelfSignedSSLCert
     (from Perl distribution App-CreateSelfSignedSSLCert), released on
-    2014-07-22.
+    2014-08-16.
 
 SYNOPSIS
     This distribution provides command-line utility called

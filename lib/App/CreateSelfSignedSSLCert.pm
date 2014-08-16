@@ -14,7 +14,7 @@ use String::ShellQuote;
 
 sub _sq { shell_quote($_[0]) }
 
-our $VERSION = '0.07'; # VERSION
+our $VERSION = '0.08'; # VERSION
 
 our %SPEC;
 
@@ -166,7 +166,7 @@ App::CreateSelfSignedSSLCert - Create self-signed SSL certificate
 
 =head1 VERSION
 
-This document describes version 0.07 of App::CreateSelfSignedSSLCert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-07-22.
+This document describes version 0.08 of App::CreateSelfSignedSSLCert (from Perl distribution App-CreateSelfSignedSSLCert), released on 2014-08-16.
 
 =head1 SYNOPSIS
 
